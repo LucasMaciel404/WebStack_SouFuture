@@ -1,0 +1,33 @@
+.imagens{
+    float: left;
+    width: 300px;
+    margin: 20px;
+    border:transparent;
+    border-radius: 10%;
+}
+.nav-item a{
+    text-decoration: none;
+    color: white;
+    float: right;
+}
+.d-flex{
+    float: right;
+}
+.login{
+    float: right;
+}
+.nav-item a:hover{
+    color: rgb(255, 123, 0);
+}
+.d-flex button:hover{
+    background-color: rgb(179, 255, 0);
+    padding-left: 200px;
+}
+.texto{
+    background-color: antiquewhite;
+    margin: 50px;
+}
+.texto p{
+    margin: 50px;
+    padding-top: 12px 
+}
