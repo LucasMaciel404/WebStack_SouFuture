@@ -34,4 +34,18 @@ class Curso
         //Retorna verdadeiro 
         return true;
     }
+    public function atualizar()
+    {
+        return (new Database('cursos'))->update('id= ' . $this ->id,[
+            "NomeCurso" => $this ->NomeCurso,
+            "Ativo" => $this ->Ativo,
+            "Descricao" => $this ->Descricao,
+            "Data" => $this ->Data]);
+    }
+    public function excluir()
+    {
+        return(new Database('cursos'))->delete('id= ' . $this->id);
+    }
+
+    
 }

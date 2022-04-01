@@ -12,7 +12,7 @@
     
 </head>
 <header>
-    <nav class="navbar navbar-expand-lg navbar-none bg-none" style="background-color: orange;" >
+    <nav class="navbar navbar-expand-lg navbar-none bg-none" style="background-color: black;" >
         <!--aqui e o comando onde fica a logo-->
         <div class="container-fluid" >
             <a class="navbar-brand" href="#"> <img src='/includes/images/wallpaper.png' alt="" width="100" height="50"></a>

@@ -5,7 +5,7 @@ use PDOException;
 class Database
 {
     const HOST = 'localhost'  ;
-    const NAME = 'soufuturedb';
+    const NAME = 'test'       ;
     const USER = 'root'       ;
     const PASS = ''           ;
 
